@@ -1,0 +1,22 @@
+$def with (datos) 
+<html>
+    <head>
+    </head>
+    <body>
+        <a href="/">Regresar</a></br>
+        <center><h2>PROFECO</h2>
+        <iframe width="100%" height="520" frameborder="0" src="https://salvadorhm.carto.com/viz/c54c258a-a209-11e6-8f25-0e233c30368f/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+        <table>
+            <th>Cadena Comercial</th>
+            <th>Longitud</th>
+            <th>Latitud</th>
+            $for row in datos:
+                <tr>
+                    <td>$row['cadenaComercial']</td>
+                    <td>$row['longitud']</td>
+                    <td>$row['latitud']</td>
+                </tr>
+        </table>
+        </center>
+    </body>
+</html>
