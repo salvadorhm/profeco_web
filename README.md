@@ -1,10 +1,13 @@
 # profeco_web
-#### Este demo esta desarrollado con el MicroFramework Web.py para Python 2.7
 
-Instlación de Web.py
+Este demo esta desarrollado con el MicroFramework Web.py 0.38 para Python 2.7
 
-### pip install web.py en GNU Linux
-### python -m pip install web.py en Windows
+## Instalación de Web.py
+
+pip install web.py en GNU Linux
+python -m pip install web.py en Windows
+
+## Deploy 
 
 Aplicación integrada con Heroku
 
