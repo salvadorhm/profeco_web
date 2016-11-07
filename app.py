@@ -4,12 +4,13 @@
 import web
 import json
 
+
 render = web.template.render('views/',cache=False)
         
 urls = (
     '/','index',
     '/values(.*)', 'values',
-    '/about','about'
+    '/about','about',
 )
 
 class index:
